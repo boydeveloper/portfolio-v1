@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+body {
+  font-family: 'Space Grotesk', sans-serif;
+  color: #a7a7a7;
+  font-size: 1.6rem;
+}
+
+.header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #171718;
+}
+
+.Navigation {
+  padding: 4rem;
+}
+.Navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.Hero {
+  padding: 4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.Hero-textbox {
+  display: flex;
+}
+.Hero-textbox > span {
+  min-width: 10.1rem;
+  line-height: 2.8rem;
+  font-size: 1.8rem;
+  padding-top: 3rem;
+}
+
+.Hero-textbox div {
+  /* display: inline-block; */
+}
+.Hero-info > h1 {
+  font-size: 12.8rem;
+  line-height: 16.3rem;
+}
+.Hero-info > P {
+  margin-bottom: 4rem;
+  max-width: 69rem;
+}
+.Hero-btn:link,
+.Hero-btn:visited {
+  color: #a7a7a7;
+  text-decoration: none;
+  overflow: hidden;
+}
+.dropdown-arrow {
+  animation: translateDown 0.3s infinite;
+}
+@keyframes translateDown {
+  100% {
+    transform: translateY(-100%);
+  }
+}
+.CV-btn:link,
+.CV-btn:visited {
+  padding: 1rem 1.2rem;
+  color: #a7a7a7;
+  border: 0.05rem solid #a7a7a7;
+  /* border-image-source: linear-gradient(
+    97.71deg,
+    #a7a7a7 21.54%,
+    rgba(103, 103, 103, 0.12) 51.37%
+  ); */
+  /* border-image-slice: 1; */
+  /* border-image-repeat: stretch; */
+  border-radius: 4.1rem;
+  text-decoration: none;
+}
+.scroll-text {
+  font-size: 12.8rem;
+  color: #a7a7a7;
+  opacity: 0.05;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  overflow: hidden;
+}
+.scroll-text:hover {
+  animation-play-state: paused;
+}
+.scroll-text span {
+  min-width: 200.4rem;
+  width: 100%;
+  animation: sliderText 20s linear infinite;
+}
+.scroll-text span:hover {
+}
+@keyframes sliderText {
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.Hero-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 4rem;
+}
+.main {
+  height: 100vh;
+  color: #171718;
+}
+.Project {
+  padding: 4rem;
+  border: 0.05rem solid rgba(21, 21, 21, 0.22);
+}
+.Project-name {
+  font-size: 12.8rem;
+}
