@@ -119,7 +119,7 @@ body {
   padding: 4rem;
 }
 .main {
-  height: 100vh;
+  min-height: 100vh;
   color: #171718;
 }
 .Project {
@@ -155,4 +155,30 @@ body {
   color: #171718;
   display: inline-block;
   padding: 0.5rem 1rem;
+}
+
+.footer {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  padding: 5rem 6rem 4.4rem;
+  color: #fff;
+  background-color: #171718;
+}
+.drop-msg-btn {
+  width: 100%;
+  font-size: 1.8rem;
+  padding: 1rem 1.2rem;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  background: transparent;
+  border-radius: 4.1rem;
+  align-items: center;
+}
+.footer-bold-text {
+  font-size: 12.8rem;
+  color: #a7a7a7;
+
+  opacity: 0.05;
 }
