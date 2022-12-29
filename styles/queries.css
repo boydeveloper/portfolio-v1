@@ -63,11 +63,12 @@
   }
   .drop-msg-btn {
     margin-bottom: 5rem;
+    font-size: 1.4rem;
   }
 }
 @media (max-width: 456px) {
   .Hero-info > h1 {
-    font-size: 7.2rem;
+    font-size: 7rem;
   }
   .Project-name {
     font-size: 4rem;
