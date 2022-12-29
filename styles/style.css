@@ -9,6 +9,7 @@ html {
 }
 body {
   font-family: 'Space Grotesk', sans-serif;
+  overflow-x: hidden;
   font-size: 1.6rem;
   font-weight: 400;
 }

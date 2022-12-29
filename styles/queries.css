@@ -69,6 +69,10 @@
   .Hero-info > h1 {
     font-size: 7.2rem;
   }
+  .Project-name {
+    font-size: 4rem;
+    line-height: 5rem;
+  }
   .Hero-info > P {
     font-size: 1.4rem;
     line-height: 2.2rem;
