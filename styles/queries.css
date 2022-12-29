@@ -1,0 +1,76 @@
+@media (max-width: 967px) {
+  .header {
+    justify-content: unset;
+  }
+  .Hero-footer {
+    display: none;
+  }
+  .Project,
+  .Hero-textbox {
+    flex-direction: column;
+  }
+  .Project {
+    gap: 4rem;
+  }
+  .Project-description {
+    max-width: 100%;
+  }
+  .project-tools {
+    align-items: flex-start;
+  }
+  .footer-bold-text {
+    font-size: 10rem;
+  }
+  .footer-cta {
+    flex-direction: column-reverse;
+    gap: 2rem;
+  }
+  .footer-cta > P:first-child {
+    display: none;
+  }
+  .Hero-footer-links {
+    justify-content: space-between;
+    gap: unset;
+    width: 100%;
+  }
+}
+.scroll-text {
+  display: none;
+}
+
+@media (max-width: 645px) {
+  .footer-bold-text {
+    font-size: 4.8rem;
+  }
+  .Project-name {
+    font-size: 5.4rem;
+    margin-bottom: 2rem;
+    line-height: 6.89rem;
+  }
+  .Hero-info > h1 {
+    font-size: 9rem;
+    line-height: normal;
+  }
+  .Hero,
+  .Navigation {
+    padding: 4rem 2rem;
+  }
+  .Project {
+    padding: 5.5rem 2rem;
+  }
+  .footer-cta > P:nth-child(2) {
+    color: #a7a7a7;
+  }
+  .drop-msg-btn {
+    margin-bottom: 5rem;
+  }
+}
+@media (max-width: 456px) {
+  .Hero-info > h1 {
+    font-size: 7.2rem;
+  }
+  .Hero-info > P {
+    font-size: 1.4rem;
+    line-height: 2.2rem;
+  }
+}
