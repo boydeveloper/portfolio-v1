@@ -1,3 +1,9 @@
+@media (max-width: 1422px) {
+  .hero-title {
+    font-size: 12rem;
+  }
+}
+
 @media (max-width: 967px) {
   .header {
     justify-content: unset;
