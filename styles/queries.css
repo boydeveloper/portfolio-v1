@@ -50,6 +50,9 @@
 }
 
 @media (max-width: 645px) {
+  .hero-title {
+    font-size: 7rem;
+  }
   .footer-bold-text {
     font-size: 4.8rem;
   }
@@ -78,6 +81,9 @@
   }
 }
 @media (max-width: 456px) {
+  .hero-title {
+    font-size: 5rem;
+  }
   .Hero-info > h1 {
     font-size: 7rem;
   }
