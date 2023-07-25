@@ -6,9 +6,10 @@
 html {
   font-size: 62.5%;
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 body {
-  font-family: 'Space Grotesk', sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   overflow-x: hidden;
   font-size: 1.6rem;
   font-weight: 400;
@@ -31,6 +32,16 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+.Navbar > a:link,
+.Navbar > a:visited {
+  color: #a7a7a7;
+  text-decoration: none;
+}
+.Navbar > a:hover,
+.Navbar > a:active {
+  color: #898888;
+  text-decoration: underline;
 }
 .dev-img {
   height: 4rem;
