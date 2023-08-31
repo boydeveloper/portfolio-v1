@@ -231,6 +231,7 @@ body {
   padding: 5rem 4rem 5rem;
   color: #fff;
   background-color: #171718;
+  width: 100%;
 }
 .footer-heading-text {
   margin-bottom: 2rem;
@@ -246,13 +247,35 @@ body {
   font-size: 1.8rem;
   padding: 1rem 1.6rem;
   color: #fff;
+  margin: 0 auto;
   border: none;
   margin-bottom: 12.7rem;
+  text-align: center;
   background-color: transparent;
   background-repeat: no-repeat;
-  align-items: center;
-}
+  border-radius: 41px;
 
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 0.5px;
+
+  /* Add the border-image-slice property with appropriate values */
+  border-image: linear-gradient(
+      97.71deg,
+      #a7a7a7 21.54%,
+      rgba(103, 103, 103, 0.12) 51.37%
+    )
+    1; /* 1 is the border-image-slice value */
+  border-radius: 41px;
+}
+.mail-link:link,
+.mail-link:visited {
+  /* color: #898888; */
+  color: #a7a7a7;
+  text-decoration: none;
+}
 .footer-cta {
   display: flex;
   align-items: center;
