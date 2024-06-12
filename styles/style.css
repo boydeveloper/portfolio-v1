@@ -280,13 +280,13 @@ body {
   justify-content: space-between;
 }
 
-.Project {
+/* .Project {
   opacity: 0;
   visibility: hidden;
   transform: translateY(-10px);
   pointer-events: none;
   transition: 0.3s all;
-}
+} */
 .scroll-animation {
   opacity: 1;
   visibility: visible;
